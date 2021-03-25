@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/vaacinesparkanalysis.iml" filepath="$PROJECT_DIR$/.idea/modules/vaacinesparkanalysis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/VaacineSparkAnalysis.iml" filepath="$PROJECT_DIR$/.idea/modules/VaacineSparkAnalysis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/VaacineSparkAnalysis-build.iml" filepath="$PROJECT_DIR$/.idea/modules/VaacineSparkAnalysis-build.iml" />
     </modules>
   </component>
 </project>
