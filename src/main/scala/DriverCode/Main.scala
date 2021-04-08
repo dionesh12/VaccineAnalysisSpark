@@ -6,10 +6,9 @@ object Main {
   val logger = LoggerFactory.getLogger(getClass.getName)
   def main(args: Array[String]): Unit = {
       try {
-        logger.info("Initiating a spark Session")
-        val spark = SparkCommon.SparkSessionCreator.SparkSessionCreate("Vaccine")
-        logger.info("Spark session created.")
-        spark.stop()
+
+
+        ETL.vaccineETL.ETL()
 
       } catch {
         case sparkException:org.apache.spark.SparkException => logger.warn("Something went wrong with the initialization of spark")

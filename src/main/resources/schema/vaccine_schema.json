@@ -1,0 +1,80 @@
+{
+  "type":"struct",
+  "fields" : [
+    {
+      "name":"country",
+      "type": "string" ,
+      "nullable" : true
+    },
+    {
+      "name":"iso_code",
+      "type": "string" ,
+      "nullable" : true
+    },
+    {
+      "name":"date",
+      "type": "timestamp" ,
+      "nullable" : true
+    },
+    {
+      "name":"total_vaccinations",
+      "type": "double" ,
+      "nullable" : true
+    },
+    {
+      "name":"people_vaccinated",
+      "type": "double" ,
+      "nullable" : true
+    },
+    {
+      "name":"people_fully_vaccinated",
+      "type": "double" ,
+      "nullable" : true
+    },
+    {
+      "name":"daily_vaccinations_raw",
+      "type": "double" ,
+      "nullable" : true
+    },
+    {
+      "name":"daily_vaccinations",
+      "type": "double" ,
+      "nullable" : true
+    },
+    {
+      "name":"total_vaccinations_per_hundred",
+      "type": "double" ,
+      "nullable" : true
+    },
+    {
+      "name":"people_vaccinated_per_hundred",
+      "type": "double" ,
+      "nullable" : true
+    },
+    {
+      "name":"people_fully_vaccinated_per_hundred",
+      "type": "double" ,
+      "nullable" : true
+    },
+    {
+      "name":"daily_vaccinations_per_million",
+      "type": "double" ,
+      "nullable" : true
+    },
+    {
+      "name":"vaccines",
+      "type": "string" ,
+      "nullable" : true
+    },
+    {
+      "name":"source_name",
+      "type": "string" ,
+      "nullable" : true
+    },
+    {
+      "name":"source_website",
+      "type": "string" ,
+      "nullable" : true
+    }
+  ]
+}
